@@ -1,0 +1,1 @@
+this file shows simple script to calculate the simple interest using javascript.
