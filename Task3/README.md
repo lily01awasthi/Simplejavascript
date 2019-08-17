@@ -1,0 +1,1 @@
+this task shows the simple script to perform arithmatic operations using javascript.

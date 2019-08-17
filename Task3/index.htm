@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>calculater</title>
+        <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="welcome">
+            <h1>simple calculater</h1>
+            <p>enter the values and choose the options to perform calculations</p>
+        </div>
+        <div id="calculate">
+            <label>firstnumber:</label><br>
+            <input type="number" id="first"><br>
+            <label>secondnumber</label><br>
+            <input type="number" id="second"><br><br>
+            <button onclick="addition()">ADD</button>
+            <button onclick="subtraction()">SUB </button>
+            <button onclick="multiplication()">MUL</button>
+            <button onclick="division()">DIV</button>
+            <button onclick="modulus()">MOD</button>
+            <p id="result"></p>
+         </div>     
+    </body>
+    <script src="script.js"></script>
+</html>
